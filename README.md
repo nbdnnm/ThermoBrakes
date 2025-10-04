@@ -81,11 +81,14 @@ Later on, the numbers may be different from different callipers because of heavi
 
 The LCD blinking threshold may be set in the code, depending on your pad's temperature threshold.
 
-Temperature on the display
+Temperature on the display (click on pic to see the video)
+
 [![ThermoBrakes LCD](https://img.youtube.com/vi/iBIy5F_ht4Q/0.jpg)](https://www.youtube.com/watch?v=iBIy5F_ht4Q)
 
-Temperature in RaceChrono
+Temperature in RaceChrono (click on pic to see the video)
+
 [![ThermoBrakes LCD](https://img.youtube.com/vi/PCJuGoHXWgc/0.jpg)](https://www.youtube.com/watch?v=PCJuGoHXWgc)
 
 And how the data looks when imported from RaceChrono
+
 ![alt text](<pics/ThermoBrakes data in graphs from RaceChrono.png>)
