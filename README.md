@@ -1,4 +1,4 @@
-_You may [buy me a tea](buymeacoffee.com/yugene.ka) if you want to thank me. Also, I can make the device on demand._
+_You may [buy me a tea](https://buymeacoffee.com/yugene.ka) if you want to thank me. Also, [I can make the device on demand](mailto:yugene.ka@gmail.com)._
 
 # ThermoBrakes
 
@@ -7,6 +7,18 @@ This project describes how to create a brake pad temperature monitoring device s
 It can show the temperature on a small LCD and/or send it to RaceChrono.
 
 The total price for the parts is about 50$/Euro
+
+Temperature on the display (click on pic to see the video)
+
+[![ThermoBrakes LCD](https://img.youtube.com/vi/iBIy5F_ht4Q/0.jpg)](https://www.youtube.com/watch?v=iBIy5F_ht4Q)
+
+Temperature in RaceChrono (click on pic to see the video)
+
+[![ThermoBrakes LCD](https://img.youtube.com/vi/PCJuGoHXWgc/0.jpg)](https://www.youtube.com/watch?v=PCJuGoHXWgc)
+
+And how the data looks when imported from RaceChrono
+
+![alt text](<pics/ThermoBrakes data in graphs from RaceChrono.png>)
 
 ## Bill of materials
 * ESP32 - the MCU with BLE to manage everything. I used a devkit 30-pin with USB-C, but you can adjust to any kind of ESP32, just reshape the holes and the pins soldering and mapping in the code.
@@ -63,7 +75,7 @@ Then you should go to your vehicle profile and add CAN-Bus channels as below. PI
 ![alt text](pics/RaceChronoSettingsFL.jpeg)
 ![alt text](pics/RaceChronoSettingsFR.jpeg)
 
-## Validation and demonstration
+## Validation
 
 During the testing, I found that the wrong placement of the probe may result in incorrect temperature readings.
 
@@ -80,15 +92,3 @@ Each deviation from it would mean the thermocouples may be installed incorrectly
 Later on, the numbers may be different from different callipers because of heavier right or left turns or many other conditions.
 
 The LCD blinking threshold may be set in the code, depending on your pad's temperature threshold.
-
-Temperature on the display (click on pic to see the video)
-
-[![ThermoBrakes LCD](https://img.youtube.com/vi/iBIy5F_ht4Q/0.jpg)](https://www.youtube.com/watch?v=iBIy5F_ht4Q)
-
-Temperature in RaceChrono (click on pic to see the video)
-
-[![ThermoBrakes LCD](https://img.youtube.com/vi/PCJuGoHXWgc/0.jpg)](https://www.youtube.com/watch?v=PCJuGoHXWgc)
-
-And how the data looks when imported from RaceChrono
-
-![alt text](<pics/ThermoBrakes data in graphs from RaceChrono.png>)
