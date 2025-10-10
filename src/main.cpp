@@ -12,12 +12,12 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 int SCK1 = 13;
 int CS1 = 14;
-int SO1 = 12;
+int SO1 = 26;
 MAX6675 module1(SCK1, CS1, SO1);
 
 int SCK2 = 13;
 int CS2 = 27;
-int SO2 = 12;
+int SO2 = 26;
 MAX6675 module2(SCK2, CS2, SO2);
 
 int BRAKES_TEMP_THRESHOLD = 650;
